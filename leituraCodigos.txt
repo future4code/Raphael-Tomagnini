@@ -1,0 +1,14 @@
+// Exercício 1
+
+// Entendo que será impresso no console o valor da variável b e depois será impresso os valores da variável a e b
+// ao mesmo tempo. A informação b = 5 não entendi bem a sua função, já que não tem nenhum tipo de declaração atribuida.
+
+// Exercício 2
+
+// Entendo que será impresso no console os numbers de "a" e "b" e "c" será undefined porquê não houve atribuição de valor para 
+//a variável.
+
+// Exercício 3
+
+//let horasDeTrabalho = prompt("Quantas horas você trabalha por dia?")
+//let recebimentoDiario = prompt("Quanto você recebe por dia?)
