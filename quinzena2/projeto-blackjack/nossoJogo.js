@@ -25,6 +25,7 @@ if(confirm("Quer iniciar uma nova rodada?")) {
     
  
 }else{    
+    
     console.log("O Jogo acabou")
 
 }
