@@ -29,9 +29,11 @@ for(let item of array) {
   if(item % 2 ===0) {
     numerosPares.push(item)
   }
+  
 }
 return numerosPares
 }
+
 
 
 // EXERCÍCIO 04
@@ -49,7 +51,6 @@ function retornaMaiorNumero(array) {
   return numeroMaior
 }
   
-
 
 
 // EXERCÍCIO 05
@@ -79,6 +80,15 @@ function retornaExpressoesBooleanas() {
 // EXERCÍCIO 07
 function retornaNNumerosPares(n) {
 
+   let numerosPares = []
+
+   for (let numero = 0; numerosPares.length < n; numero++){
+  if (numero % 2 === 0){
+      numerosPares.push(numero)
+
+  }
+  }
+return numerosPares
 }
 
 // EXERCÍCIO 08
@@ -86,6 +96,8 @@ function checaTriangulo(a, b, c) {
   // return 'Escaleno'
   // return 'Equilátero'
   // return 'Isósceles'
+
+ 
 }
 
 // EXERCÍCIO 09
@@ -96,7 +108,10 @@ function comparaDoisNumeros(num1, num2) {
   //   maiorDivisivelPorMenor: Y,
   //   diferenca: Z
   // }
-}
+      
+   
+ 
+  }
 
 // EXERCÍCIO 10
 function segundoMaiorEMenor(array) {
@@ -110,14 +125,13 @@ function ordenaArray(array) {
 
 // EXERCÍCIO 12
 function filmeFavorito() {
-const filme = {
-   nome : "O Diabo Veste Prada",
-   ano : 2006,
-   diretor : "Daivid Frankel",
-   atores : ["Meryl Streep", "Anne Hathaway", "Emily Blunt", "Stanley Tucci"]
-   
+return filme = { nome : "O Diabo Veste Prada",
+  ano : 2006,
+  diretor : "David Frankel",
+  atores : ["Meryl Streep", "Anne Hathaway", "Emily Blunt", "Stanley Tucci"]
+     
 }
-return filme
+
 //console.log ("Nome", filme.nome)
 //console.log ("Ano", filme.ano)
 //console.log ("Diretor", filme.diretor)
@@ -128,12 +142,24 @@ return filme
 // EXERCÍCIO 13
 function imprimeChamada() {
   // "Venha assistir ao filme NOME_DO_FILME, de ANO, dirigido por DIRECAO e estrelado por ELENCO."
+
+  //const filme = {
+  //  nome: "O Diabo Veste Prada",
+  //  ano: 2006,
+  //  diretor: "Daivid Frankel",
+  //  atores: ["Meryl Streep" , "Anne Hathaway" , "Emily Blunt" , "Stanley Tucci"]
+    
 }
+
+//return filme
 
 // EXERCÍCIO 14
 function criaRetangulo(lado1, lado2) {
+ 
 
-}
+  }
+
+
 
 // EXERCÍCIO 15
 function anonimizaPessoa(pessoa) {
