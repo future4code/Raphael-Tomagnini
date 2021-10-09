@@ -52,7 +52,6 @@ function retornaMaiorNumero(array) {
 }
   
 
-
 // EXERCÍCIO 05
 function retornaQuantidadeElementos(array) {
 return array.length
@@ -97,8 +96,7 @@ function checaTriangulo(a, b, c) {
   // return 'Equilátero'
   // return 'Isósceles'
 
- 
-}
+ }
 
 // EXERCÍCIO 09
 function comparaDoisNumeros(num1, num2) {
@@ -109,8 +107,7 @@ function comparaDoisNumeros(num1, num2) {
   //   diferenca: Z
   // }
       
-   
- 
+    
   }
 
 // EXERCÍCIO 10
