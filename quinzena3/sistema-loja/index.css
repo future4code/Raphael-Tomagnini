@@ -1,0 +1,33 @@
+.imagem-logo {
+ margin: 10px 5px 8px 20px;
+}
+
+.promocao{
+
+    color: yellow;
+    background-color: red;
+    display: inline;
+}
+
+.rede-social{
+
+    color: blue;
+}
+
+.rodape{
+    position: absolute;
+    bottom: 0;
+    background-color: grey;
+    color: #FFF;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.abertura{
+
+    border-width: 10px
+   
+
+}
