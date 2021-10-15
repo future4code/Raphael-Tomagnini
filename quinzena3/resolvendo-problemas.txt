@@ -1,0 +1,24 @@
+
+
+1 - Ter atenção ao enunciado, 2 – Retirar informações relevantes, 3 – Pensar Entradas e Saídas, 4 – Fazer um esquema visual, 5 – Criar Código Feio, 
+6 – Testar força bruta, 7 – Refatorar.
+
+Antes de sair tentando escrever os códigos, devemos realizar uma leitura integral, prestando bastante atenção no enunciado. 
+Pois no próprio texto vamos retirando palavras que irão se transformar em valores, variáveis, funções e etc. 
+É fundamental sabermos como montar o programa em nossa cabeça, pois sem ele não vamos saber escrever os códigos. 
+A capacidade de interpretação do texto, antes de sairmos escrevendo os códigos é fundamental para avançar em todo projeto.
+
+
+Devemos analisar e comparar que tipo de entradas e saídas que devemos ter em nosso programa.
+
+Após essa análise e ter o programa montado em nossa cabeça, é hora de passá-lo para o papel. Utilizar a forma de fluxograma nos traz maior clareza sobre o programa que devemos escrever.
+
+Após esta etapa, devemos começar a fazer um esboço do nosso programa. Escrevendo da forma como pensamos anteriormente. 
+Ainda não a parte onde vamos refinar ou melhorar o código e sim, tornando-o concreto após imaginá-lo.
+
+Posteriormente, vamos testar este código/programa escrito e ver como está se comportando. Se estamos no caminho certo ou não.
+
+Em seguida e por último, após testá-lo anteriormente e entender que este é o caminho, vamos refatorar. 
+Buscando escrevê-lo de uma forma mais legível, aplicando as boas práticas necessárias.
+
+Conclusão : Seguindo estas práticas, não só nos facilita nossa rotina do dia a dia como programadores, auxilia na solução de problemas de forma prática, dinâmica e sem desespero.
