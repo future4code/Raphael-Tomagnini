@@ -1,0 +1,1 @@
+Não consegui implementar a logica deste exercício. Como já tem a resposta dada pela escola, não inseri neste arquivo para não ficar uma cópia.
