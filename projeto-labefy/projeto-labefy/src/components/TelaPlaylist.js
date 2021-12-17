@@ -1,14 +1,14 @@
 import React from "react"
 import axios from "axios"
-//import styled from "styled-components"
+import styled from "styled-components"
 
-//const CardPlaylist = styled.div`
+const CardPlaylist = styled.div`
 
-//    border: 1px solid black;
-//    padding: 10px;
-//    margin: 10px;
-
-//`
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+`
   
 
 export default class TelaPlaylist extends React.Component{
@@ -37,14 +37,18 @@ export default class TelaPlaylist extends React.Component{
 
     }
 
-
+    
 
     render(){
+          const listaPlaylist = this.state.playlist.map((user) => {
+              return <CardPlaylist key={user.id}>{user.name}</CardPlaylist>
+          })  
+
         return(
             <div>
                 <button onClick={this.props.irParaCadastro}>Ir Para Cadastro</button>
                 <h2>Playlist</h2>    
-                
+                {listaPlaylist}
             </div>
         )
     }
