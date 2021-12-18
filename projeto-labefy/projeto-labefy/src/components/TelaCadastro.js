@@ -22,7 +22,7 @@ export default class TelaCadastro extends React.Component {
                 }
             })
             .then((res) => {
-                alert("Música cadastrada com sucesso")
+                alert("Playlist cadastrada com sucesso")
                 this.setState({nome: ""})
             })
             .catch((err) => {
