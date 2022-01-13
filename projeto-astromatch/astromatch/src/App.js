@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import Header from './components/Header';
+import Body from './components/Body';
 
 const AppContainer = styled.div`
 
@@ -10,20 +12,19 @@ const AppContainer = styled.div`
   margin: auto;
 `
 
-const TituloContainer = styled.div`
-  border: 1px solid black;
-  height: 10vh;
-`
 
 
-
-class App extends React.Component {
-  render() {
+function App() {
+  
   return (
     <AppContainer>
-    <TituloContainer/>  
+    
+    <Header/>
+    <Body></Body>
+        
+       
     </AppContainer>
    );
   }
-}
+
 export default App;
