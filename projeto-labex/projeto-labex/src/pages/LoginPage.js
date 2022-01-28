@@ -4,6 +4,7 @@ import axios from 'axios'
 import { BASE_URL } from "./utils/constants"
 
 
+
 export const LoginPage = () => {
     const history = useHistory()
 
@@ -33,22 +34,26 @@ export const LoginPage = () => {
         ).catch(res => console.log(res));
     
 }
+    
+
     return (
         <div>
             <p>Login Page</p>
             <br/>
-            <p>Email</p>
-            <input value={email} onChange={onChangeEmail}/>
-            <p>Senha</p>
-            <input value={password} onChange={onChangePassword}/>
-            <br/>
-            <button onClick={onSubmitLogin}>
+           
+                <p>Email</p>
+                <input value={email} onChange={onChangeEmail}/>
+                <p>Senha</p>
+                <input value={password} onChange={onChangePassword}/>
+                <br/>
+                <button onClick={onSubmitLogin}>
                 Login
-            </button>
+                </button>
             <p/>
                 <button onClick={goToAdminHomePage}>
                     Ir para Página de Administrador
                 </button>
+                 
         </div>
     )
     }
