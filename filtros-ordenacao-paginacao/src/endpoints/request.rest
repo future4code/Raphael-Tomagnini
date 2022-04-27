@@ -1,0 +1,2 @@
+### // endpoint - buscar todas as receitas
+GET http://localhost:3003/recipes?title=
